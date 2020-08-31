@@ -1,12 +1,10 @@
 {
   "name": "webview-js",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "node.js binding for webview.h",
-  "main": "dist/lib/index.js",
-  "typings": "dist/lib/index.d.ts",
+  "main": "./lib/index.js",
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
-    "build": "tsc"
+    "install": "prebuild-install || node-gyp rebuild"
   },
   "repository": {
     "type": "git",
@@ -24,11 +22,8 @@
   },
   "homepage": "https://github.com/drllr/webview-js#readme",
   "devDependencies": {
-    "@types/node": "^12.0.0",
     "node-abi": "2.18.0",
-    "prebuild": "^10.0.0",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.0"
+    "prebuild": "^10.0.0"
   },
   "dependencies": {
     "nan": "^2.10.0",

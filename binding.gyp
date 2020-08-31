@@ -7,6 +7,7 @@
         ['OS=="win"', {
           'sources': [
             'src/main.cc',
+            'src/webview.h'
           ],
           'msvs_disabled_warnings': [
             4267,  # conversion from 'size_t' to 'int', possible loss of data
@@ -17,6 +18,7 @@
       ],
       'sources': [
             'src/main.cc',
+            'src/webview.h'
       ],
     }
   ]
